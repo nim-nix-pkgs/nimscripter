@@ -11,8 +11,15 @@
   inputs.src-nimscripter-master.ref   = "refs/heads/master";
   inputs.src-nimscripter-master.owner = "beef331";
   inputs.src-nimscripter-master.repo  = "nimscripter";
-  inputs.src-nimscripter-master.dir   = "";
   inputs.src-nimscripter-master.type  = "github";
+  
+  inputs."github.com/disruptek/assume".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/assume".ref   = "master";
+  inputs."github.com/disruptek/assume".repo  = "github.com/disruptek/assume";
+  inputs."github.com/disruptek/assume".dir   = "";
+  inputs."github.com/disruptek/assume".type  = "github";
+  inputs."github.com/disruptek/assume".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/assume".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
