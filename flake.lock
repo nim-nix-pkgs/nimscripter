@@ -36,11 +36,11 @@
       },
       "locked": {
         "dir": "0_4_0",
-        "lastModified": 1650760378,
+        "lastModified": 1652367120,
         "narHash": "sha256-Ou7tTDLNde/sVsBBMgOeAmBy2I2cDwWZfwlIi5YPcsg=",
         "owner": "nim-nix-pkgs",
         "repo": "github-disruptek-assume",
-        "rev": "f4a86da90d883b7990ff94e8d92b3aa29f70d275",
+        "rev": "baf870fe2a6a987701fa97e8ba6120927d725af4",
         "type": "github"
       },
       "original": {
@@ -165,11 +165,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1650762349,
-        "narHash": "sha256-2vp0EE3p87X45O1dieR/U3sCZcUyTs9FXYVg9N4oLFE=",
+        "lastModified": 1656297937,
+        "narHash": "sha256-fZPnVrkN5BBArots4NQprt7LB8D7YuX5Eda2PEI2mtw=",
         "owner": "nim-nix-pkgs",
         "repo": "nimscripter",
-        "rev": "4067830046821919f7fbd96608540ca9eb315e2f",
+        "rev": "785afd80627c34925603e4b5b89fcc2890588af7",
         "type": "github"
       },
       "original": {
@@ -288,11 +288,11 @@
     "src-nimscripter-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1647392684,
-        "narHash": "sha256-Bm3td5BN+5RLa6pKmEUF12upq2MLgHx5ucHk0Q9SNM0=",
+        "lastModified": 1652411407,
+        "narHash": "sha256-mkMNeSRK+0fkHVAoUM0B5MSXboFZs74taUYg6nJQg1Q=",
         "owner": "beef331",
         "repo": "nimscripter",
-        "rev": "adca8fb2810addd0a4817e7d2b389c5cb857fa25",
+        "rev": "0105cfc7d825a100d5f9cb7ad75b8da2e3f3e9b3",
         "type": "github"
       },
       "original": {
