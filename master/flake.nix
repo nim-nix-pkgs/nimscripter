@@ -13,13 +13,13 @@
   inputs.src-nimscripter-master.repo  = "nimscripter";
   inputs.src-nimscripter-master.type  = "github";
   
-  inputs."github-disruptek-assume".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-assume".ref   = "master";
-  inputs."github-disruptek-assume".repo  = "github-disruptek-assume";
-  inputs."github-disruptek-assume".dir   = "0_4_0";
-  inputs."github-disruptek-assume".type  = "github";
-  inputs."github-disruptek-assume".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-assume".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/disruptek/assume".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/assume".ref   = "master";
+  inputs."github.com/disruptek/assume".repo  = "github.com/disruptek/assume";
+  inputs."github.com/disruptek/assume".dir   = "";
+  inputs."github.com/disruptek/assume".type  = "github";
+  inputs."github.com/disruptek/assume".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/assume".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
